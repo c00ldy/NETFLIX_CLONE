@@ -1,0 +1,242 @@
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+  }
+
+  body {
+      background-color: black;
+  }
+
+  .main {
+      background-image: url(assats/images/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+      background-position: center center;
+      background-size: max(1200px, 100vw);
+      height: 70vh;
+      position: relative;
+  }
+
+  .main .box {
+      height: 70vh;
+      width: 100%;
+      background-color: black;
+      opacity: 0.44;
+      position: absolute;
+      top: 0;
+  }
+
+  nav {
+      max-width: 105vh;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 62px;
+      position: relative;
+      z-index: 10;
+  }
+
+  nav image {
+      color: red;
+      width: 34px;
+
+  }
+
+  .hero {
+      font-family: 'Martel Sans', sans-serif;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      position: relative;
+      z-index: 10;
+      gap: 23px;
+  }
+
+  .hero> :nth-child(1) {
+      font-weight: 900;
+      font-size: 48px;
+      text-align: center;
+
+  }
+
+  .hero> :nth-child(2) {
+      font-weight: 400;
+      font-size: 24px;
+      text-align: center;
+  }
+
+  .hero> :nth-child(3) {
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+  }
+
+  .sepration {
+      background-color: rgb(81, 81, 81);
+      height: 0.5vh;
+  }
+
+  .btn {
+      background-color: white;
+      border-radius: 4px;
+      border-color: transparent;
+      padding: 3px 8px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+  .btn-put {
+      background-color: rgba(0, 0, 0, 0.217);
+      color: rgba(255, 255, 255, 0.712);
+      padding: 3px 27px;
+      border: 1px solid rgba(255, 255, 255, 0.653);
+  }
+
+  .btn-red {
+      background-color: red;
+      padding: 3px 24px;
+      font-size: 20px;
+      color: white;
+      border-radius: 4px;
+      border-color: transparent;
+  }
+
+  .btn-red-sm {
+      background-color: red;
+      color: white;
+      border-radius: 4px;
+      border-color: transparent;
+  }
+
+  .hero-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      columns: white;
+  }
+
+  .main input {
+      padding: 7px 101px 8px 14px;
+      border-radius: 4px;
+      font-size: 12px;
+      background-color: rgba(23, 23, 23, 0.7);
+      border: 1px solid rgb(163, 163, 163);
+      color: white;
+
+  }
+
+  .first {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      max-width: 70vw;
+      margin: auto;
+  }
+
+  .secimg {
+      position: relative;
+  }
+
+  .secimg img {
+      width: 555px;
+      position: relative;
+      z-index: 10;
+  }
+
+  .secimg video {
+      position: absolute;
+      height: 243px;
+      top: 51px;
+      right: 0px;
+  }
+
+  .first>div {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .first>div :nth-child(1) {
+      font-size: 48px;
+      font-family: 'Martel Sans', sans-serif;
+  }
+
+  .first>div :nth-child(2) {
+      font-size: 24px;
+  }
+
+  .faqbox {
+      background-color: black;
+      color: white;
+  }
+
+  .faqbox svg {
+      filter: invert(1);
+  }
+
+  .faqbox>h2 {
+      text-align: center;
+      padding-top: 54px;
+      font-size: 41px;
+  }
+
+  .feqfirst {
+      display: flex;
+      justify-content: space-between;
+      background-color: #3c3b3b;
+      padding: 24px;
+      max-width: 57vw;
+      margin: 32px auto;
+  }
+
+  .feqfirst:hover {
+      display: flex;
+      justify-content: space-between;
+      background-color: #666464;
+      padding: 24px;
+      max-width: 57vw;
+      margin: 32px auto;
+      cursor: pointer;
+  }
+
+  footer {
+      color: white;
+      max-width: 60vw;
+      width: auto;
+      position: relative;
+      top: 42px;
+      right: -349px;
+  }
+
+
+  .footer {
+      display: grid;
+      color: white;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+  }
+
+  footer .Questions {
+      padding: 0px 0px 16px 0px;
+
+  }
+
+  .item-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+  }
+
+  footer a {
+      text-decoration: none;
+      color: white;
+      font-size: 10px;
+  }
